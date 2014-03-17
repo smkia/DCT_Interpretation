@@ -1,5 +1,6 @@
 %% Simulations
 clear all;
+load('2DLayout.mat');
 foldNum = 5;
 alpha = 1;
 phaseVar = [1,45,90,135,180,225,270,315]; % Phase variability of background noise.
